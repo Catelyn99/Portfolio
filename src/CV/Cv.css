@@ -1,0 +1,128 @@
+#cv-other {
+    overflow: hidden;
+}
+
+#cv-title {
+    float: left;
+}
+
+.cv-section-container {
+    overflow: hidden;
+}
+
+.cv-main {
+    margin: 0 20%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#cv-general-data {
+    margin: 115px 45px 0;
+    font-size: 20px;
+}
+
+#cv-general-data li {
+    padding-top: 5px;
+}
+
+#cv-general-data a {
+    color: initial;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#cv-general-data svg {
+    color: rgb(141, 15, 63);
+}
+
+#cv-general-container {
+    padding-top: 50px;
+    
+}
+
+#cv-education-list li {
+    margin-bottom: 15px;
+}
+
+#cv-download {
+    float: right;
+    text-decoration: none;
+    color: black;
+    background-color: #fdcece;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.cv-about-icon-caption-short {
+    display: none;
+}
+
+@media (max-width: 1200px) { 
+    #cv-general-data {
+        margin: 10px;
+    }
+ }
+
+@media (min-width: 992px) {  }
+
+@media (max-width: 768px) {
+    #cv-general-data {
+        font-size: 15px;
+    }
+
+    #cv-myphoto {
+        height: 200px;
+    }
+    
+    .cv-main {
+        margin: 15px 5%;
+    }
+ }
+ 
+
+@media (max-width: 576px) {
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #cv-download {
+        float: none;
+        display: block;
+        overflow: hidden;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 2px solid rgb(166, 39, 87);
+    }
+
+    #cv-myphoto {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid rgb(166, 39, 87);
+    }
+
+    .cv-about-icon-caption-long {
+        display: none;
+    }
+
+    .cv-about-icon-caption-short {
+        display: initial;
+    }
+
+    #cv-general-data {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #cv-general-data li {
+        float: left;
+        padding: 10px;
+        border: 2px solid rgb(166, 39, 87);
+    }
+    
+    #cv-general-data li:first-child {
+        display: none;
+    }
+}

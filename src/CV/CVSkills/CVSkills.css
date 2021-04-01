@@ -1,0 +1,51 @@
+#cv-list-technical-skills {
+    text-align: center;
+}
+
+#cv-list-technical-skills li {
+    float: left;
+    padding: 10px;
+    color: white;
+    width: 88px;
+    height: 88px;
+    background-color: rgb(141, 15, 63);
+    border: 2px solid rgb(166, 39, 87);
+}
+
+#cv-icon-html5:hover {
+    color: orange;
+}
+
+#cv-icon-css3:hover {
+    color: lightskyblue;
+}
+
+#cv-icon-js:hover {
+    color: yellow;
+}
+
+#cv-icon-git:hover {
+    color: darkorange;
+}
+
+#cv-icon-react:hover {
+    color: lightskyblue;
+}
+
+#cv-icon-json:hover {
+    color: rgb(87, 90, 92);
+}
+
+@media (max-width: 576px) {
+    #cv-technical-skills-container {
+        float: left;
+    }
+
+    #cv-list-technical-skills li {
+        width: 33%;
+    }
+
+    #cv-personal-skills-container {
+        display: none;
+    }
+}
