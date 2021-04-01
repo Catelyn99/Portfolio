@@ -26,7 +26,7 @@ const App = () => {
         <div id="app-cv" className="app-section" ref={refCv}>
           <Cv />
         </div>
-        <div className="app-section" ref={refProjects}>
+        <div id="app-projects" className="app-section" ref={refProjects}>
           <Projects /> 
         </div>
       </div>

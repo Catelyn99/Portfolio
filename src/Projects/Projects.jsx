@@ -23,7 +23,7 @@ class Projects extends React.Component {
         {
             id: '2',
             name: 'BLOG',
-            url: 'https://catelyn99.github.io/blog/blog',
+            url: 'https://catelyn99.github.io/Blog/blog',
             technologiesUsed: 'HTML, CSS, JavaScript, Bootstrap',
             description: 'Blog przedstawiający kilka z moich podróży.  Do każdej podróży stworzony jest opis wycieczki, z którego można skorzystać i pooglądać zdjęcia.',
             img: {
@@ -34,7 +34,7 @@ class Projects extends React.Component {
         {
             id: '3',
             name: 'PORTFOLIO',
-            url: 'https://catelyn99.github.io/portfolio/mypage',
+            url: 'https://catelyn99.github.io/Legacy-Portfolio/myPage',
             technologiesUsed: 'HTML, CSS, JavaScript',
             description: 'Aplikacja przedstawia moje pierwsze portfolio.',
             img: {
