@@ -4,6 +4,12 @@
     margin-top: 45px;
     background-color: rgb(141, 15, 63);
     width: 30%;
+    text-decoration: none;
+}
+
+.project-container:hover {
+    transform: scale(1.1);
+    transition: ease-in;
 }
 
 .project-name {
