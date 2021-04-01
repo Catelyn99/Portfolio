@@ -1,0 +1,18 @@
+.aboutme-container {
+    padding: 40px;
+    color: #fdcece;
+    border-radius: 5px;
+    background-color: rgb(141, 15, 63);
+    box-shadow: inset 0px 0px 57px 10px rgb(37 28 33);
+    margin: 0 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .aboutme-container {
+        margin: 0;
+    }
+}

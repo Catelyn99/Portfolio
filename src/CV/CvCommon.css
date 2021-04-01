@@ -1,0 +1,19 @@
+.cv-section-container {
+    overflow: hidden;
+}
+
+.cv-block {
+    width: 50%;
+    float: left;
+}
+
+.cv-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 1200px) {
+    .cv-block {
+        width: 100%;
+    }
+}

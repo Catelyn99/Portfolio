@@ -1,0 +1,36 @@
+.project-container {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 45px;
+    background-color: rgb(141, 15, 63);
+    width: 30%;
+}
+
+.project-name {
+    text-align: center;
+    color: white;
+    background-color: rgb(141, 15, 63);
+}
+
+.project-tech-description {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    color: #fdcece;
+}
+
+.project-description {
+    margin-top: 25px;
+}
+
+.project-image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        width: 100%;
+    }
+}
