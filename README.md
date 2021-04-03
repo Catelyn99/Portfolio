@@ -15,5 +15,7 @@ This portfolio was created to represent my skills.
 ## Technology
 * HTML5
 * CSS3
+* SCSS
+* CSS Modules
 * JavaScript
 * ReactJS
