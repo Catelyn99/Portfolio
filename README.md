@@ -2,7 +2,7 @@
 My actually portfolio written in ReactJS.
 
 ## Live demo
-🔗 [Portfolio](https://catelyn99.github.io/Portfolio/myPage)
+🔗 [Portfolio](https://catelyn99.github.io/Portfolio/)
 
 ## Table of Contents
 * My description
