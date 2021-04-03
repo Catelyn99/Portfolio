@@ -1,0 +1,43 @@
+.container {
+    margin-top: 155px;
+    overflow: hidden;
+}
+
+.section {
+    margin-top: 55px;
+    scroll-margin-top: 140px;
+}
+
+.introduction {
+    margin-top: 45px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(141, 15, 63);
+    opacity: 0.4;
+}
+
+#cv {
+    background-color: rgb(141, 15, 63);
+    padding: 55px 0;
+}
+
+#projects {
+    margin: 55px 10% 30px;
+}
+
+@media (max-width: 768px) {
+    #cv {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .introduction {
+        font-size: 30px;
+        }
+}
+
+@media (max-width: 576px) {
+    #projects {
+        margin: 0;
+    }
+}

@@ -1,3 +1,5 @@
+$light-color: #fdcece;
+
 .header-container {
     padding: 26px;
     background-color: rgb(141, 15, 63);
@@ -7,12 +9,13 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .page-name {
     width: 40%;
     font-size: 67px;
-    color: #fdcece;
+    color: $light-color;
     margin-top: 15px;
 }
 
@@ -29,7 +32,7 @@
     cursor: grab;
     font-weight: 600;
     border-radius: 15px;
-    background-color: #fdcece;
+    background-color: $light-color;
 }
 .menu-item:hover{
     transform: scale(0.9);
@@ -67,7 +70,7 @@
         display: block;
         width: 25%;
         font-size: 67px;
-        color: #fdcece;
+        color: $light-color;
         margin-top: 15px;
         float: left;
     }

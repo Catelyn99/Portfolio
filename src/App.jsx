@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './App.module.css';
 import Header from './Header/Header';
 import Cv from './CV/Cv';
 import Projects from './Projects/Projects';
@@ -19,14 +19,17 @@ const App = () => {
       <Header scrollToAboutMe={scrollToAboutMe}
         scrollToCv={scrollToCv}
         scrollToProjects={scrollToProjects} />
-      <div className="app-container">
-        <div className="app-section" ref={refAboutMe}>
+      <div className={styles.container}>
+        <div className={styles.introduction}>
+          Front-end Developer
+        </div>
+        <div className={styles.section} ref={refAboutMe}>
           <AboutMe />
         </div>
-        <div id="app-cv" className="app-section" ref={refCv}>
+        <div id={styles.cv} className={styles.section} ref={refCv}>
           <Cv />
         </div>
-        <div id="app-projects" className="app-section" ref={refProjects}>
+        <div id={styles.projects} className={styles.section} ref={refProjects}>
           <Projects /> 
         </div>
       </div>
