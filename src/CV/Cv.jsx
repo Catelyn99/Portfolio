@@ -1,5 +1,5 @@
-import './Cv.css';
-import './CvCommon.css';
+import styles from './Cv.module.css';
+import commonStyles from './CvCommon.module.css';
 import cvPdf from './CV_Sroka_Katarzyna.pdf';
 import myphoto from './myphoto.jpg';
 import CvSkills from './CVSkills/CVSkills';
@@ -9,30 +9,30 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Cv() {
     return (
-        <div className="cv-main">
-            <div id="cv-other">
-                <h2 id="cv-title">CURRICULUM VITAE</h2>
-                <a href={cvPdf} id="cv-download" download>POBIERZ <FontAwesomeIcon style={{ marginLeft: '5px' }} icon={faFileDownload} /></a>
+        <div className={styles.main}>
+            <div id={styles.other}>
+                <h2 id={styles.title}>CURRICULUM VITAE</h2>
+                <a href={cvPdf} id={styles.download} download>POBIERZ <FontAwesomeIcon style={{ marginLeft: '5px' }} icon={faFileDownload} /></a>
             </div>
-            <section className="cv-section-container">
-                <div className="cv-block">
-                    <img id="cv-myphoto" src={myphoto} alt="me" />
+            <section className={commonStyles.sectioncontainer}>
+                <div className={commonStyles.block}>
+                    <img id={styles.myphoto} src={myphoto} alt="me" />
                 </div>
-                <div className="cv-block">
-                    <ul id="cv-general-data" className="cv-list">
+                <div className={commonStyles.block}>
+                    <ul id={styles.generaldata} className={commonStyles.list}>
                         <li>
                             <FontAwesomeIcon icon={faHome} /> Witanowice
                         </li>
                         <li>
                             <a href="mailto:katarzynasroka99@gmail.com">
-                                <FontAwesomeIcon icon={faEnvelope} /> <span className="cv-about-icon-caption-long">katarzynasroka99@gmail.com</span>
-                                <span className="cv-about-icon-caption-short">Email</span>
+                                <FontAwesomeIcon icon={faEnvelope} /> <span className={styles.abouticoncaptionlong}>katarzynasroka99@gmail.com</span>
+                                <span className={styles.abouticoncaptionshort}>Email</span>
                         </a>
                         </li>
                         <li>
                             <a href="https://github.com/Catelyn99">
-                                <FontAwesomeIcon icon={faGithub} /> <span className="cv-about-icon-caption-long">Catelyn99</span>
-                                <span className="cv-about-icon-caption-short">GitHub</span>
+                                <FontAwesomeIcon icon={faGithub} /> <span className={styles.abouticoncaptionlong}>Catelyn99</span>
+                                <span className={styles.abouticoncaptionshort}>GitHub</span>
                         </a>
                         </li>
                     </ul>
@@ -40,7 +40,7 @@ export default function Cv() {
             </section>
             <CvSkills />
             <h2>WYKSZTAŁCENIE</h2>
-            <ul className="cv-list" id="cv-education-list">
+            <ul className={commonStyles.list} id={styles.educationlist}>
                 <li>
                     Średnie: Centrum kształcenia Zawodowego i Ustawicznego nr 1 im. ks. prof. J. Tischnera - profil europejski (2015r. - 2018r.)
                 </li>

@@ -1,8 +1,8 @@
-import './AboutMe.css';
+import styles from './AboutMe.module.css';
 
 export default function AboutMe() {
     return (
-        <div className="aboutme-container">
+        <div className={styles.container}>
             <h1>CZEŚĆ!</h1>
             <h2>
                 Nazywam się Katarzyna Sroka. 

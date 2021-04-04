@@ -1,5 +1,5 @@
 import Project from './Project/Project'
-import './Projects.css'
+import styles from './Projects.module.css'
 import React from 'react';
 import blogImg from './images/blog.png';
 import quizImg from './images/quiz.png';
@@ -45,12 +45,12 @@ class Projects extends React.Component {
     ];
 
     render() {
-        const projectsHTML = this.projects.map(item => <Project className="project-container" key={item.id} project={item} />)
+        const projectsHTML = this.projects.map(item => <Project className={styles.container} key={item.id} project={item} />)
 
         return (
             <>
-            <div className="projects-name">PROJEKTY</div>
-            <div className="projects-container">
+            <div className={styles.name}>PROJEKTY</div>
+            <div className={styles.container}>
                 {projectsHTML}
             </div>
             </>
