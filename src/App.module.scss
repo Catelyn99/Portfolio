@@ -1,3 +1,5 @@
+@import 'variables';
+
 .container {
     margin-top: 155px;
     overflow: hidden;
@@ -12,12 +14,12 @@
     margin-top: 45px;
     font-size: 60px;
     text-align: center;
-    color: rgb(141, 15, 63);
+    color: $main-color;
     opacity: 0.4;
 }
 
 #cv {
-    background-color: rgb(141, 15, 63);
+    background-color: $main-color;
     padding: 55px 0;
 }
 

@@ -1,9 +1,11 @@
+@import '../variables';
+
 .container {
     padding: 40px;
-    color: #fdcece;
+    color: $light-color;
     border-radius: 5px;
-    background-color: rgb(141, 15, 63);
-    box-shadow: inset 0px 0px 57px 10px rgb(37 28 33);
+    background-color: $main-color;
+    box-shadow: inset 0px 0px 57px 10px rgb(37, 28, 33);
     margin: 0 20%;
     text-align: center;
 }

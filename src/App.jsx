@@ -1,4 +1,4 @@
-import styles from './App.module.css';
+import styles from './App.module.scss';
 import Header from './Header/Header';
 import Cv from './CV/Cv';
 import Projects from './Projects/Projects';

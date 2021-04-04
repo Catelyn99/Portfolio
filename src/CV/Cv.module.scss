@@ -1,3 +1,5 @@
+@import '../variables';
+
 #other {
     overflow: hidden;
 }
@@ -29,7 +31,7 @@
 }
 
 #generaldata svg {
-    color: rgb(141, 15, 63);
+    color: $main-color;
 }
 
 #generalcontainer {
@@ -45,7 +47,7 @@
     float: right;
     text-decoration: none;
     color: black;
-    background-color: #fdcece;
+    background-color: $light-color;
     padding: 12px;
     border-radius: 5px;
 }
@@ -90,13 +92,13 @@
         padding: 10px;
         margin-bottom: 10px;
         text-align: center;
-        border: 2px solid rgb(166, 39, 87);
+        border: 2px solid $pink-color;
     }
 
     #myphoto {
         display: block;
         margin: 0 auto;
-        border: 2px solid rgb(166, 39, 87);
+        border: 2px solid $pink-color;
     }
 
     .abouticoncaptionlong {
@@ -115,7 +117,7 @@
     #generaldata li {
         float: left;
         padding: 10px;
-        border: 2px solid rgb(166, 39, 87);
+        border: 2px solid $pink-color;
     }
     
     #generaldata li:first-child {
