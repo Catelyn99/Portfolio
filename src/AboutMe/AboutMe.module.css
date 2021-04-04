@@ -1,4 +1,4 @@
-.aboutme-container {
+.container {
     padding: 40px;
     color: #fdcece;
     border-radius: 5px;
@@ -10,7 +10,7 @@
 
 
 @media (max-width: 768px) {
-    .aboutme-container {
+    .container {
         margin: 0;
     }
 }

@@ -1,19 +1,19 @@
-.cv-section-container {
+.sectioncontainer {
     overflow: hidden;
 }
 
-.cv-block {
+.block {
     width: 50%;
     float: left;
 }
 
-.cv-list {
+.list {
     padding: 0;
     list-style-type: none;
 }
 
 @media (max-width: 1200px) {
-    .cv-block {
+    .block {
         width: 100%;
     }
 }

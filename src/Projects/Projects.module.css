@@ -1,4 +1,4 @@
-.projects-container {
+.container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -6,7 +6,7 @@
     padding: 20px;
 }
 
-.projects-name {
+.name {
     font-size: 55px;
     text-align: center;
     font-weight: 600;

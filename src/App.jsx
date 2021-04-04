@@ -33,6 +33,9 @@ const App = () => {
           <Projects /> 
         </div>
       </div>
+      <footer>
+        Katarzyna Sroka © 2021
+      </footer>
     </div>
   );
 }

@@ -1,8 +1,8 @@
-#cv-list-technical-skills {
+#listtechnicalskills {
     text-align: center;
 }
 
-#cv-list-technical-skills li {
+#listtechnicalskills li {
     float: left;
     padding: 10px;
     color: white;
@@ -12,40 +12,40 @@
     border: 2px solid rgb(166, 39, 87);
 }
 
-#cv-icon-html5:hover {
+#iconhtml5:hover {
     color: orange;
 }
 
-#cv-icon-css3:hover {
+#iconcss3:hover {
     color: lightskyblue;
 }
 
-#cv-icon-js:hover {
+#iconjs:hover {
     color: yellow;
 }
 
-#cv-icon-git:hover {
+#icongit:hover {
     color: darkorange;
 }
 
-#cv-icon-react:hover {
+#iconreact:hover {
     color: lightskyblue;
 }
 
-#cv-icon-json:hover {
+#iconjson:hover {
     color: rgb(87, 90, 92);
 }
 
 @media (max-width: 576px) {
-    #cv-technical-skills-container {
+    #technicalskillscontainer {
         float: left;
     }
 
-    #cv-list-technical-skills li {
+    #listtechnicalskills li {
         width: 33%;
     }
 
-    #cv-personal-skills-container {
+    #personalskillscontainer {
         display: none;
     }
 }
