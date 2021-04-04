@@ -14,14 +14,15 @@ export default function AboutMe() {
                 W wolnych chwilach aktywnie organizuję czas, bądź daję się pochłonąć książkom.
             </h3>
             <h3>
+                Z programowaniem zetknęłam się przypadkowo, lecz od tamtej chwili stało się to moją pasją. 
+                Dzięki programowaniu staję się niezależna i wolna. Uwielbiam rozwój i kreowanie świata.
+            </h3>
+            <h3>
                 W styczniu 2021r. zdałam kurs Kwalifikowanej Pierwszej Pomocy.
             </h3>
             <h3>
                 Studiuję pielęgniarstwo (3.rok). Pracowałam przez 6 miesięcy na stanowisku: pomoc pielęgniarska. 
-                W związku z tym nie straszna mi praca pod presją, w stresie lub w grupie.
-            </h3>
-            <h3>
-                Dodatkowo, udzielam się społecznie jako: strażak-ochotnik.
+                W związku z tym nie straszna mi praca pod presją, w stresie lub w grupie. 
             </h3>
         </div>
     )
