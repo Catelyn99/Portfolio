@@ -33,7 +33,7 @@ class Projects extends React.Component {
         },
         {
             id: '3',
-            name: 'PORTFOLIO',
+            name: 'PIERWSZE PORTFOLIO',
             url: 'https://catelyn99.github.io/Legacy-Portfolio/myPage',
             technologiesUsed: 'HTML, CSS, JavaScript',
             description: 'Aplikacja przedstawia moje pierwsze portfolio.',

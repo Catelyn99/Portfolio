@@ -27,6 +27,12 @@
     margin: 55px 10% 30px;
 }
 
+footer {
+    color: $light-color;
+    text-align: center;
+    background-color: $pink-color;
+}
+
 @media (max-width: 768px) {
     #cv {
         padding-top: 15px;
