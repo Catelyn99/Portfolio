@@ -1,8 +1,8 @@
-$light-color: #fdcece;
+@import '../variables';
 
 .headercontainer {
     padding: 26px;
-    background-color: rgb(141, 15, 63);
+    background-color: $main-color;
     text-align: center;
     line-height: 67px;
     overflow: hidden;

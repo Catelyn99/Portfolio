@@ -1,5 +1,5 @@
 import Project from './Project/Project'
-import styles from './Projects.module.css'
+import styles from './Projects.module.scss'
 import React from 'react';
 import blogImg from './images/blog.png';
 import quizImg from './images/quiz.png';

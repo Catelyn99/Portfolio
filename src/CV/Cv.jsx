@@ -1,5 +1,5 @@
-import styles from './Cv.module.css';
-import commonStyles from './CvCommon.module.css';
+import styles from './Cv.module.scss';
+import commonStyles from './CvCommon.module.scss';
 import cvPdf from './CV_Sroka_Katarzyna.pdf';
 import myphoto from './myphoto.jpg';
 import CvSkills from './CVSkills/CVSkills';

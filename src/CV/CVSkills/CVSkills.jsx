@@ -1,5 +1,5 @@
-import styles from './CVSkills.module.css';
-import commonStyles from '../CvCommon.module.css';
+import styles from './CVSkills.module.scss';
+import commonStyles from '../CvCommon.module.scss';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
