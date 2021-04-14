@@ -31,7 +31,7 @@
 }
 
 #generaldata svg {
-    color: $main-color;
+    color: $blue-color;
 }
 
 #generalcontainer {
@@ -47,7 +47,7 @@
     float: right;
     text-decoration: none;
     color: black;
-    background-color: $light-color;
+    background-color: $pink-color;
     padding: 12px;
     border-radius: 5px;
 }
@@ -117,7 +117,7 @@
     #generaldata li {
         float: left;
         padding: 10px;
-        border: 2px solid $pink-color;
+        border: 2px solid $blue-color;
     }
     
     #generaldata li:first-child {
