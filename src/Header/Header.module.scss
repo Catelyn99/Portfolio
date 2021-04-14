@@ -2,7 +2,7 @@
 
 .headercontainer {
     padding: 26px;
-    background-color: $main-color;
+    background-color: $blue-color;
     text-align: center;
     line-height: 67px;
     overflow: hidden;
@@ -15,7 +15,7 @@
 .pagename {
     width: 40%;
     font-size: 67px;
-    color: $light-color;
+    color: #fff;
     margin-top: 15px;
 }
 
@@ -27,12 +27,13 @@
 }
 
 .menuitem {
-    border: 2px solid black;
-    width: 32%;
+    padding-right: 58px;
+    padding-left: 7px;
+    cursor: -webkit-grab;
     cursor: grab;
-    font-weight: 600;
-    border-radius: 15px;
-    background-color: $light-color;
+    font-weight: 400;
+    float: right;
+    color: #fff;
 }
 .menuitem:hover{
     transform: scale(0.9);
@@ -70,7 +71,7 @@
         display: block;
         width: 25%;
         font-size: 67px;
-        color: $light-color;
+        color: #fff;
         margin-top: 15px;
         float: left;
     }
