@@ -1,34 +1,43 @@
 @import '../variables';
+@import url('https://fonts.googleapis.com/css2');
 
-.headercontainer {
-    padding: 26px;
-    background-color: $blue-color;
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "header .";
+}
+
+header {
+    font-family: 'Nanum Pen Script', cursive;
+    margin-top: 150px;
+    grid-area: header;
     text-align: center;
-    line-height: 67px;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 .pagename {
-    width: 40%;
-    font-size: 67px;
-    color: #fff;
-    margin-top: 15px;
+    font-size: 80px;
+    color: $blue-color;
+}
+
+.introduction {
+    font-size: 50px;
+    color: $pink-color;
 }
 
 .menu {
-    width: 60%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+      background-color: $blue-color;
+      border-bottom-left-radius: 50%;
+      padding: 27px;
+      width: 50%;
+      top: 0;
+      border-top-left-radius: 50%;
+      position: fixed;
+      list-style-type: none;
+      z-index: 1;
 }
 
 .menuitem {
-    padding-right: 58px;
-    padding-left: 7px;
+    padding-left: 102px;
     cursor: -webkit-grab;
     cursor: grab;
     font-weight: 400;
@@ -39,49 +48,56 @@
     transform: scale(0.9);
 }
 
-.pagename,
-.menu,
-.menu div {
-    float: left;
-}
-
 .pagenamemobile {
     display: none;
 }
 
 
-@media (min-width: 992px) {  }
+
 
 @media (max-width: 1200px) { 
     .pagename {
         font-size: 45px;
     }
+    .introduction {
+        font-size: 35px;
+        }
+        .menuitem {
+            padding-left: 50px;
+            font-size: 18px;
+     }  
+ }
+ @media (max-width: 992px) { 
+    .menuitem {
+        padding-left: 44px;
+        font-size: 10px;
+ }  
  }
  @media (max-width: 825px) {
     .pagename {
-        font-size: 25px;
-    }
- }
+        font-size: 40px;
+    } 
+    .introduction {
+        font-size: 18px;
+        }
+    .menuitem {
+        padding-left: 36px;
+        font-size: 12px;
+     }  
+}
 
  @media (max-width: 576px) {   
      .pagename {
          display: none;
      } 
     .pagenamemobile {
-        display: block;
-        width: 25%;
+        display: grid;
         font-size: 67px;
-        color: #fff;
-        margin-top: 15px;
-        float: left;
+        color: $blue-color;
     }
-    .menu {
-        width: 75%;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        font-size: 10px;
-    }
- }
-     
-    
+    .menuitem {
+        padding-left: 20px;
+        font-size: 8px;
+ }  
+
+}
