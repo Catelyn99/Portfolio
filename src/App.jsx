@@ -20,9 +20,7 @@ const App = () => {
         scrollToCv={scrollToCv}
         scrollToProjects={scrollToProjects} />
       <div className={styles.container}>
-        <div className={styles.introduction}>
-          Front-end Developer
-        </div>
+        
         <div className={styles.section} ref={refAboutMe}>
           <AboutMe />
         </div>
