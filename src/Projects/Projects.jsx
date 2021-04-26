@@ -4,6 +4,7 @@ import React from 'react';
 import blogImg from './images/blog.png';
 import quizImg from './images/quiz.png';
 import portfolioImg from './images/portfolio.png';
+import vendorsCookie from './images/vendors-cookie.jpg';
 
 class Projects extends React.Component {
     projects = [
@@ -40,6 +41,17 @@ class Projects extends React.Component {
             img: {
                 src: portfolioImg,
                 alt: 'The image of portfolio',
+            },
+        },
+        {
+            id: '4',
+            name: 'VENDORS-COOKIE',
+            url: 'https://catelyn99.github.io/Vendors-cookie/',
+            technologiesUsed: 'HTML, CSS, JavaScript',
+            description: 'Aplikacja ukazuje działanie "popup" ukazującego się po otwarciu strony z możliwością wyboru (akceptacją wszystkiego, poszczególnych elementów lub odrzuceniem). Wybrane dane zapisywane są w pliku cookie na 24h. W tym czasie "popup" nie będzie wyświetlał się po ponownym otwarciu strony.',
+            img: {
+                src: vendorsCookie,
+                alt: 'The image of vendors-cookie',
             },
         }
     ];
