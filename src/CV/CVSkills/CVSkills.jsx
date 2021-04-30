@@ -3,7 +3,7 @@ import commonStyles from '../CvCommon.module.scss';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
-import { faHtml5, faCss3Alt, faJs, faGitSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faGitSquare, faReact, f41e, faSass } from '@fortawesome/free-brands-svg-icons';
 
 class CvSkills extends React.Component {
 
@@ -43,6 +43,12 @@ class CvSkills extends React.Component {
             name: 'JSON',
             elementId: styles.iconjson,
             icon: faCircleNotch,
+        },
+        {
+            id: 7,
+            name: 'SASS',
+            elementId: styles.iconsass,
+            icon: faSass,
         }
     ];
 
