@@ -1,5 +1,5 @@
 # Portfolio
-My actually portfolio written in ReactJS.
+My actual portfolio written in ReactJS.
 
 ## Live demo
 🔗 [Portfolio](https://catelyn99.github.io/Portfolio/)
