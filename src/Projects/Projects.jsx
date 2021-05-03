@@ -9,20 +9,29 @@ import vendorsCookie from './images/vendors-cookie.jpg';
 class Projects extends React.Component {
     projects = [
         {
-            id: '1',
+            id: 1,
+            name: 'VENDORS-COOKIE',
+            url: 'https://catelyn99.github.io/Vendors-cookie/',
+            technologiesUsed: 'HTML, CSS, JavaScript',
+            description: 'Aplikacja pobiera z zewnętrznego API listę vendorów i wyświetla je w popupie. Użytkownik ma możliwość wyboru i akceptacji lub odrzucenia wybranych opcji.  Wybrane dane zapisywane są w pliku cookie na 24h. W tym czasie "popup" nie będzie wyświetlał się po ponownym otwarciu strony.',
+            img: {
+                src: vendorsCookie,
+                alt: 'The image of vendors-cookie',
+            },
+        },
+        {
+            id: 2,
             name: 'QUIZ',
             url: 'https://catelyn99.github.io/Quiz/quiz',
             technologiesUsed: 'HTML, CSS, JavaScript',
-            description: `Krótki quiz na temat HTML5. W quizie jest możliwość
-            podsumowania punktów oraz sprawdzenia poprawnych
-            odpowiedzi.`,
+            description: `Krótki quiz na temat HTML5.  W quizie jest możliwość podsumowania punktów oraz sprawdzenia poprawnych odpowiedzi.`,
             img: {
                 src: quizImg,
                 alt: 'The image of quiz',
             },
         },
         {
-            id: '2',
+            id: 3,
             name: 'BLOG',
             url: 'https://catelyn99.github.io/Blog/blog',
             technologiesUsed: 'HTML, CSS, JavaScript, Bootstrap',
@@ -30,28 +39,6 @@ class Projects extends React.Component {
             img: {
                 src: blogImg,
                 alt: 'The image of blog',
-            },
-        },
-        {
-            id: '3',
-            name: 'PIERWSZE PORTFOLIO',
-            url: 'https://catelyn99.github.io/Legacy-Portfolio/myPage',
-            technologiesUsed: 'HTML, CSS, JavaScript',
-            description: 'Aplikacja przedstawia moje pierwsze portfolio.',
-            img: {
-                src: portfolioImg,
-                alt: 'The image of portfolio',
-            },
-        },
-        {
-            id: '4',
-            name: 'VENDORS-COOKIE',
-            url: 'https://catelyn99.github.io/Vendors-cookie/',
-            technologiesUsed: 'HTML, CSS, JavaScript',
-            description: 'Aplikacja ukazuje działanie "popup" ukazującego się po otwarciu strony z możliwością wyboru (akceptacją wszystkiego, poszczególnych elementów lub odrzuceniem). Wybrane dane zapisywane są w pliku cookie na 24h. W tym czasie "popup" nie będzie wyświetlał się po ponownym otwarciu strony.',
-            img: {
-                src: vendorsCookie,
-                alt: 'The image of vendors-cookie',
             },
         }
     ];
@@ -61,7 +48,7 @@ class Projects extends React.Component {
 
         return (
             <>
-            <div className={styles.name}>PROJEKTY</div>
+            <div className={styles.name}>Projekty</div>
             <div className={styles.container}>
                 {projectsHTML}
             </div>

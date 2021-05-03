@@ -5,7 +5,7 @@ export default function AboutMe() {
         <div className={styles.container}>
             <h1>CZEŚĆ!</h1>
             <h2>
-                Nazywam się Katarzyna Sroka. 
+                Jestem Kasia.
             </h2>
             <h3>
                 Jestem osobą energiczną, towarzyską, odpowiedzialną i zaradną w każdym momencie. 

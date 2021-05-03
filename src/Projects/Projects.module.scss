@@ -1,13 +1,13 @@
 @import '../variables';
+
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 0 20px;
-    padding: 20px;
 }
 
 .name {
+    font-family: $font;
     font-size: 55px;
     text-align: center;
     font-weight: 600;
