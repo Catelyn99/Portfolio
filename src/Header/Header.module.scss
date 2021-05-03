@@ -1,7 +1,7 @@
 @import '../variables';
 @import url('https://fonts.googleapis.com/css2');
 header {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: $font;
     margin-top: 150px;
     grid-area: header;
     text-align: center;

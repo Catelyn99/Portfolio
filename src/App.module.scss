@@ -1,6 +1,7 @@
 @import 'variables';
+
 .container {
-    margin-top: 10%;
+    margin-top: 155px;
 }
 
 .section {
@@ -14,24 +15,26 @@
 }
 
 #projects {
-    margin: 55px 10% 30px;
+    margin: 55px 0 30px;
+    padding: 0 10%;
 }
 
 footer {
     color: #fff;
     text-align: center;
-    background-color: $pink-color;
+    background-color: $blue-color;
 }
 
 @media (max-width: 768px) {
     #cv {
         padding-top: 15px;
         padding-bottom: 15px;
-    }
+}
 }
 
 @media (max-width: 576px) {
     #projects {
         margin: 0;
+        padding: 0;
     }
 }

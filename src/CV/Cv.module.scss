@@ -18,6 +18,10 @@
 #generaldata {
     margin: 115px 45px 0;
     font-size: 20px;
+
+    li:hover svg {
+        color: $pink-color;
+    }
 }
 
 #generaldata li {
