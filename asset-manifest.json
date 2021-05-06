@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4622d5aa.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9eed79ee.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9eed79ee.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9089b2c3.chunk.css",
+    "main.js": "/Portfolio/static/js/main.ce53321c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.ce53321c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.52a64160.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.52a64160.js.map",
     "static/js/2.449ba5f1.chunk.js": "/Portfolio/static/js/2.449ba5f1.chunk.js",
@@ -10,18 +10,18 @@
     "static/js/3.0d418b84.chunk.js": "/Portfolio/static/js/3.0d418b84.chunk.js",
     "static/js/3.0d418b84.chunk.js.map": "/Portfolio/static/js/3.0d418b84.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.4622d5aa.chunk.css.map": "/Portfolio/static/css/main.4622d5aa.chunk.css.map",
+    "static/css/main.9089b2c3.chunk.css.map": "/Portfolio/static/css/main.9089b2c3.chunk.css.map",
     "static/js/2.449ba5f1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.449ba5f1.chunk.js.LICENSE.txt",
     "static/media/CV_Sroka_Katarzyna.f04c02a3.pdf": "/Portfolio/static/media/CV_Sroka_Katarzyna.f04c02a3.pdf",
     "static/media/blog.82693c9d.png": "/Portfolio/static/media/blog.82693c9d.png",
-    "static/media/portfolio.901b556b.png": "/Portfolio/static/media/portfolio.901b556b.png",
+    "static/media/hospital-ward.653098b4.jpg": "/Portfolio/static/media/hospital-ward.653098b4.jpg",
     "static/media/quiz.f26f9d98.png": "/Portfolio/static/media/quiz.f26f9d98.png",
     "static/media/vendors-cookie.fb790b4e.jpg": "/Portfolio/static/media/vendors-cookie.fb790b4e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.52a64160.js",
     "static/js/2.449ba5f1.chunk.js",
-    "static/css/main.4622d5aa.chunk.css",
-    "static/js/main.9eed79ee.chunk.js"
+    "static/css/main.9089b2c3.chunk.css",
+    "static/js/main.ce53321c.chunk.js"
   ]
 }
