@@ -3,7 +3,7 @@ import styles from './Projects.module.scss'
 import React from 'react';
 import blogImg from './images/blog.png';
 import quizImg from './images/quiz.png';
-import portfolioImg from './images/portfolio.png';
+import hospitalWard from './images/hospital-ward.jpg';
 import vendorsCookie from './images/vendors-cookie.jpg';
 
 class Projects extends React.Component {
@@ -21,6 +21,17 @@ class Projects extends React.Component {
         },
         {
             id: 2,
+            name: 'Hospital - ward',
+            url: 'https://catelyn99.github.io/Hospital-ward/',
+            technologiesUsed: 'HTML, SASS, JavaScript, React',
+            description: 'Aplikacja jest odzwierciedleniem oddziału szpitalnego. Celem jest zwiększenie efektywności pracy wśród personelu medycznego oraz poprawa komunikacji na oddziale. Każdy pracownik mający aplikację może zrobić sobie szybki podgląd na zlecenia i uwagi dotyczące pacjentów.  Aplikacja cały czas jest w procesie tworzenia.',
+            img: {
+                src: hospitalWard,
+                alt: 'The image of hospital-ward',
+            },
+        },
+        {
+            id: 3,
             name: 'QUIZ',
             url: 'https://catelyn99.github.io/Quiz/quiz',
             technologiesUsed: 'HTML, CSS, JavaScript',
@@ -31,7 +42,7 @@ class Projects extends React.Component {
             },
         },
         {
-            id: 3,
+            id: 4,
             name: 'BLOG',
             url: 'https://catelyn99.github.io/Blog/blog',
             technologiesUsed: 'HTML, CSS, JavaScript, Bootstrap',
@@ -39,7 +50,7 @@ class Projects extends React.Component {
             img: {
                 src: blogImg,
                 alt: 'The image of blog',
-            },
+            }
         }
     ];
 
