@@ -25,7 +25,7 @@ const App = () => {
           <AboutMe />
         </div>
         <div id={styles.cv} className={styles.section} ref={refCv}>
-          <Cv />
+          <Cv scrollToProjects={scrollToProjects} />
         </div>
         <div id={styles.projects} className={styles.section} ref={refProjects}>
           <Projects /> 

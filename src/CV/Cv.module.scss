@@ -1,5 +1,4 @@
 @import '../variables';
-
 #other {
     overflow: hidden;
 }
@@ -18,7 +17,6 @@
 #generaldata {
     margin: 115px 45px 0;
     font-size: 20px;
-
     li:hover svg {
         color: $pink-color;
     }
@@ -40,7 +38,6 @@
 
 #generalcontainer {
     padding-top: 50px;
-    
 }
 
 #educationlist li {
@@ -60,35 +57,35 @@
     display: none;
 }
 
-@media (max-width: 1200px) { 
+.abouticoncaptionlong {
+    font-style: italic;
+}
+
+@media (max-width: 1200px) {
     #generaldata {
         margin: 10px;
     }
- }
+}
 
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {}
 
 @media (max-width: 768px) {
     #generaldata {
         font-size: 15px;
     }
-
     #myphoto {
         height: 200px;
     }
-    
     .main {
         margin: 15px 5%;
     }
- }
- 
+}
 
 @media (max-width: 576px) {
     h2 {
         width: 100%;
         text-align: center;
     }
-
     #download {
         float: none;
         display: block;
@@ -98,32 +95,27 @@
         text-align: center;
         border: 2px solid $pink-color;
     }
-
     #myphoto {
         display: block;
         margin: 0 auto;
         border: 2px solid $pink-color;
     }
-
     .abouticoncaptionlong {
         display: none;
     }
-
     .abouticoncaptionshort {
         display: initial;
+        font-style: italic;
     }
-
     #generaldata {
         display: flex;
         justify-content: space-around;
     }
-
     #generaldata li {
         float: left;
         padding: 10px;
         border: 2px solid $blue-color;
     }
-    
     #generaldata li:first-child {
         display: none;
     }
