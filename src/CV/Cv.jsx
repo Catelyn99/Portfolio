@@ -1,13 +1,14 @@
 import styles from './Cv.module.scss';
+import React from 'react';
 import commonStyles from './CvCommon.module.scss';
 import cvPdf from './CV_Sroka_Katarzyna.pdf';
 import myphoto from './myphoto.jpg';
 import CvSkills from './CVSkills/CVSkills';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faFileDownload } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFileDownload, faObjectUngroup } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-export default function Cv() {
+export default function Cv(props) {
     return (
         <div className={styles.main}>
             <div id={styles.other}>
@@ -21,9 +22,6 @@ export default function Cv() {
                 <div className={commonStyles.block}>
                     <ul id={styles.generaldata} className={commonStyles.list}>
                         <li>
-                            <FontAwesomeIcon icon={faHome} /> Witanowice
-                        </li>
-                        <li>
                             <a href="mailto:katarzynasroka99@gmail.com">
                                 <FontAwesomeIcon icon={faEnvelope} /> <span className={styles.abouticoncaptionlong}>katarzynasroka99@gmail.com</span>
                                 <span className={styles.abouticoncaptionshort}>Email</span>
@@ -35,8 +33,21 @@ export default function Cv() {
                                 <span className={styles.abouticoncaptionshort}>GitHub</span>
                         </a>
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/katarzyna-sroka-09/">
+                                <FontAwesomeIcon icon={faLinkedinIn} /> <span className={styles.abouticoncaptionlong}>katarzyna-sroka-09</span>
+                                <span className={styles.abouticoncaptionshort}>LinkedIn</span>
+                        </a>
+                        </li>
+                        <li>
+                            <div onClick={props.scrollToProjects}>
+                                <FontAwesomeIcon icon={faObjectUngroup} /> <span className={styles.abouticoncaptionlong}>Projekty</span>
+                                <span className={styles.abouticoncaptionshort}>Projekty</span>
+                        </div>
+                        </li>
                     </ul>
                 </div>
+                
             </section>
             <CvSkills />
             <h2>WYKSZTAŁCENIE</h2>
