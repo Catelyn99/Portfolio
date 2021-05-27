@@ -74,7 +74,7 @@ class CvSkills extends React.Component {
                     </ul>
                 </div>
                 <div className={commonStyles.block} id={styles.technicalskillscontainer}>
-                    <h2>ZNAJOMOŚĆ:</h2>
+                    <h2>TECHNOLOGIE:</h2>
                     <ul id={styles.listtechnicalskills} className={commonStyles.list}>
                         {technicalSkills}
                     </ul>
