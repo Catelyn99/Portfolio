@@ -10,17 +10,6 @@ class Projects extends React.Component {
     projects = [
         {
             id: 1,
-            name: 'VENDORS-COOKIE',
-            url: 'https://catelyn99.github.io/Vendors-cookie/',
-            technologiesUsed: 'HTML, CSS, JavaScript',
-            description: 'Aplikacja pobiera z zewnętrznego API listę vendorów i wyświetla je w popupie. Użytkownik ma możliwość wyboru i akceptacji lub odrzucenia wybranych opcji.  Wybrane dane zapisywane są w pliku cookie na 24h. W tym czasie "popup" nie będzie wyświetlał się po ponownym otwarciu strony.',
-            img: {
-                src: vendorsCookie,
-                alt: 'The image of vendors-cookie',
-            },
-        },
-        {
-            id: 2,
             name: 'Hospital - ward',
             url: 'https://catelyn99.github.io/Hospital-ward/',
             technologiesUsed: 'HTML, SASS, JavaScript, React',
@@ -28,7 +17,18 @@ class Projects extends React.Component {
             img: {
                 src: hospitalWard,
                 alt: 'The image of hospital-ward',
-            },
+            }
+        },
+        {
+            id: 2,
+            name: 'VENDORS-COOKIE',
+            url: 'https://catelyn99.github.io/Vendors-cookie/',
+            technologiesUsed: 'HTML, CSS, JavaScript',
+            description: 'Aplikacja pobiera z zewnętrznego API listę vendorów i wyświetla je w popupie. Użytkownik ma możliwość wyboru i akceptacji lub odrzucenia wybranych opcji.  Wybrane dane zapisywane są w pliku cookie na 24h. W tym czasie "popup" nie będzie wyświetlał się po ponownym otwarciu strony.',
+            img: {
+                src: vendorsCookie,
+                alt: 'The image of vendors-cookie',
+            }
         },
         {
             id: 3,
