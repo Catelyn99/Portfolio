@@ -53,10 +53,7 @@ export default function Cv(props) {
             <h2>WYKSZTAŁCENIE</h2>
             <ul className={commonStyles.list} id={styles.educationlist}>
                 <li>
-                    Średnie: Centrum kształcenia Zawodowego i Ustawicznego nr 1 im. ks. prof. J. Tischnera - profil europejski (2015r. - 2018r.)
-                </li>
-                <li>
-                    Wyższe: Uczelnia Państwowa Wyższa Szkoła Zawodowa im. rtm. Witolda Pileckiego w Oświęcimiu - kierunek: pielęgniarstwo (2018r. - aktualnie)
+                    Wyższe: Uczelnia Państwowa Wyższa Szkoła Zawodowa im. rtm. Witolda Pileckiego w Oświęcimiu - kierunek: pielęgniarstwo (2018r. - 2021r.)
                 </li>
             </ul>
         </div>
