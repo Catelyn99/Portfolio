@@ -15,26 +15,25 @@ const App = () => {
   const scrollToProjects = () => refProjects.current.scrollIntoView({ behavior: 'smooth' })
 
   return (
-    <div>
+    <>
       <Header scrollToAboutMe={scrollToAboutMe}
         scrollToCv={scrollToCv}
         scrollToProjects={scrollToProjects} />
-      <div className={styles.container}>
-        
-        <div className={styles.section} ref={refAboutMe}>
+      <main className={styles.container}>
+        <section className={styles.aboutMe} ref={refAboutMe}>
           <AboutMe />
-        </div>
-        <div id={styles.cv} className={styles.section} ref={refCv}>
+        </section>
+        <section className={styles.cv} ref={refCv}>
           <Cv scrollToProjects={scrollToProjects} />
-        </div>
-        <div id={styles.projects} className={styles.section} ref={refProjects}>
+        </section>
+        <section className={styles.projects} ref={refProjects}>
           <Projects /> 
-        </div>
-      </div>
+        </section>
+      </main>
       <footer>
-        Katarzyna Sroka © 2021
+        Katarzyna Sroka © 2022
       </footer>
-    </div>
+    </>
   );
 }
 

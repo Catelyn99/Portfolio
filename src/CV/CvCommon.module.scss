@@ -1,19 +1,14 @@
-.sectioncontainer {
-    overflow: hidden;
-}
-
-.block {
-    width: 50%;
-    float: left;
+.container {
+    display: flex;
+    .column {
+        width: 50%;
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+    }
 }
 
 .list {
     padding: 0;
     list-style-type: none;
-}
-
-@media (max-width: 1200px) {
-    .block {
-        width: 100%;
-    }
 }

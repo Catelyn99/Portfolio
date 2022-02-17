@@ -1,54 +1,54 @@
-@import '../../variables';
-#listtechnicalskills {
+@import "../../variables";
+.listtechnicalskills {
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    li {
+        padding: 10px;
+        color: $black-color;
+        width: 88px;
+        height: 88px;
+    }
 }
 
-#listtechnicalskills li {
-    float: left;
-    padding: 10px;
-    color: white;
-    width: 88px;
-    height: 88px;
-    background-color: $blue-color;
-    border: 2px solid $pink-color;
-}
+#icon {
+    &html5:hover {
+        color: orange;
+    }
 
-#iconhtml5:hover {
-    color: orange;
-}
+    &css3:hover {
+        color: lightskyblue;
+    }
 
-#iconcss3:hover {
-    color: lightskyblue;
-}
+    &js:hover {
+        color: #ebeb2f;
+    }
 
-#iconjs:hover {
-    color: yellow;
-}
+    &git:hover {
+        color: darkorange;
+    }
 
-#icongit:hover {
-    color: darkorange;
-}
+    &react:hover {
+        color: lightskyblue;
+    }
 
-#iconreact:hover {
-    color: lightskyblue;
-}
+    &json:hover {
+        color: rgb(87, 90, 92);
+    }
 
-#iconjson:hover {
-    color: rgb(87, 90, 92);
-}
-
-#iconsass:hover {
-    color: rgb(226, 25, 209);
+    &sass:hover {
+        color: rgb(226, 25, 209);
+    }
 }
 
 @media (max-width: 576px) {
-    #technicalskillscontainer {
+    .technicalskillscontainer {
         float: left;
     }
-    #listtechnicalskills li {
+    .listtechnicalskills li {
         width: 33%;
     }
-    #personalskillscontainer {
+    .personalskillscontainer {
         display: none;
     }
 }

@@ -1,17 +1,16 @@
 @import '../variables';
 
 .container {
-    padding: 40px;
+    font-weight: 400;
     color: #fff;
-    border-radius: 5px;
-    background-color: $blue-color;
-    margin: 0 20%;
-    text-align: center;
+    margin: 0 300px 0 40px;
+    font-family: "Nanum Pen Script", cursive;
+    letter-spacing: 2px;
 }
-
 
 @media (max-width: 768px) {
     .container {
-        margin: 0;
+        margin: 15px;
+        text-align: center;
     }
 }

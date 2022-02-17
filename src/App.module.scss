@@ -1,39 +1,41 @@
-@import 'variables';
+@import "variables";
 
-.container {
-    margin-top: 155px;
+body {
+    background-color: $black-color;
 }
 
-.section {
-    margin-top: 55px;
-    scroll-margin-top: 140px;
+.aboutMe {
+    padding-bottom: 55px;
+    background: linear-gradient(0deg, $pink-color 0, $violet-color 32%, $black-color 100%);
 }
 
-#cv {
+.cv {
+    background: linear-gradient(180deg, $pink-color 32%, $violet-color 100%);
     background-color: $pink-color;
     padding: 55px 0;
 }
 
-#projects {
-    margin: 55px 0 30px;
+.projects {
+    background: linear-gradient(180deg, $violet-color 0, $black-color 100%);
     padding: 0 10%;
 }
 
 footer {
-    color: #fff;
+    color: $white-color;
     text-align: center;
-    background-color: $blue-color;
+    font-family: $nanum-font;
+    background-color: $violet-color;
 }
 
 @media (max-width: 768px) {
-    #cv {
+    .cv {
         padding-top: 15px;
         padding-bottom: 15px;
-}
+    }
 }
 
 @media (max-width: 576px) {
-    #projects {
+    .projects {
         margin: 0;
         padding: 0;
     }

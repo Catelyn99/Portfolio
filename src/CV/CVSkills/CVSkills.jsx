@@ -64,8 +64,8 @@ class CvSkills extends React.Component {
         });
 
         return (
-            <section className={commonStyles.sectioncontainer}>
-                <div className={commonStyles.block} id={styles.personalskillscontainer}>
+            <section className={commonStyles.container}>
+                <div className={`${commonStyles.column} ${styles.personalskillscontainer}`}>
                     <h2>UMIEJĘTNOŚCI OSOBISTE:</h2>
                     <ul className={commonStyles.list}>
                         <li>Języki: polski (natywny), angielski (B2)</li>
@@ -73,9 +73,9 @@ class CvSkills extends React.Component {
                         <li>Prawo jazdy: kategoria B</li>
                     </ul>
                 </div>
-                <div className={commonStyles.block} id={styles.technicalskillscontainer}>
+                <div className={`${commonStyles.column} ${styles.technicalskillscontainer}`}>
                     <h2>TECHNOLOGIE:</h2>
-                    <ul id={styles.listtechnicalskills} className={commonStyles.list}>
+                    <ul className={`${styles.listtechnicalskills} ${commonStyles.list}`}>
                         {technicalSkills}
                     </ul>
                 </div>
