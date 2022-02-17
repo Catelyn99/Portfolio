@@ -4,6 +4,7 @@ import Cv from './CV/Cv';
 import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
 import { useRef } from 'react';
+import Navigation from './Navigation/Navigation';
 
 const App = () => {
   const refAboutMe = useRef(null)
@@ -16,9 +17,10 @@ const App = () => {
 
   return (
     <>
-      <Header scrollToAboutMe={scrollToAboutMe}
+    <Navigation scrollToAboutMe={scrollToAboutMe}
         scrollToCv={scrollToCv}
         scrollToProjects={scrollToProjects} />
+      <Header />
       <main className={styles.container}>
         <section className={styles.aboutMe} ref={refAboutMe}>
           <AboutMe />
