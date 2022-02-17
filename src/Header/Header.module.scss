@@ -95,42 +95,7 @@ body {
     }
 }
 
-.menu {
-    // border-bottom-right-radius: 58%;
-    // border-top-left-radius: 58%;
-    // border-bottom-left-radius: 4%;
-    // border-top-right-radius: 4%;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    display: flex;
-    margin: 0;
-    justify-content: space-around;
-    flex-direction: row;
-    list-style-type: none;
-    z-index: 1;
-}
 
-.menuitem {
-    cursor: grab;
-    font-weight: 600;
-    // float: center;
-    // float: left;
-    // margin-left: 22%;
-    // color: #fff;
-    box-shadow: inset 0px -10px 26px 12px black;
-    background-color: $blue-color;
-    border-bottom-left-radius: 52%;
-    border-bottom-right-radius: 52%;
-    font-family: $lobster-font;
-    color: black;
-    width: 16%;
-    text-align: center;
-    padding: 10px 24px 20px;
-    &:hover {
-        background: linear-gradient(#e664e6, #9198e5);
-    }
-}
 
 .pagenamemobile,
 .introductionmobile {
