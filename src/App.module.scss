@@ -1,42 +1,33 @@
-@import "variables";
+@import "./scss/variables/variables";
 
 body {
-    background-color: $black-color;
+  background-color: $black-color;
 }
 
 .aboutMe {
-    padding-bottom: 55px;
-    background: linear-gradient(0deg, $pink-color 0, $violet-color 32%, $black-color 100%);
+  padding-bottom: 55px;
+  background: linear-gradient(
+    0deg,
+    $pink-color 0,
+    $violet-color 32%,
+    $black-color 100%
+  );
 }
 
 .cv {
-    background: linear-gradient(180deg, $pink-color 32%, $violet-color 100%);
-    background-color: $pink-color;
-    padding: 55px 0;
+  background: linear-gradient(180deg, $pink-color 32%, $violet-color 100%);
+  background-color: $pink-color;
+  padding: 55px 10%;
 }
 
 .projects {
-    background: linear-gradient(180deg, $violet-color 0, $black-color 100%);
-    padding: 0 10%;
+  background: linear-gradient(180deg, $violet-color 0, $black-color 100%);
+  padding: 0 10%;
 }
 
 footer {
-    color: $white-color;
-    text-align: center;
-    font-family: $nanum-font;
-    background-color: $violet-color;
-}
-
-@media (max-width: 768px) {
-    .cv {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-}
-
-@media (max-width: 576px) {
-    .projects {
-        margin: 0;
-        padding: 0;
-    }
+  color: $white-color;
+  text-align: center;
+  font-family: $nanum-font;
+  background-color: $violet-color;
 }

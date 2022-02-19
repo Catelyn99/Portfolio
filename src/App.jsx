@@ -5,6 +5,7 @@ import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
 import { useRef } from 'react';
 import Navigation from './Navigation/Navigation';
+import Slider from './Slider/Slider';
 
 const App = () => {
   const refAboutMe = useRef(null)
@@ -30,6 +31,7 @@ const App = () => {
         </section>
         <section className={styles.projects} ref={refProjects}>
           <Projects /> 
+          {/* <Slider /> */}
         </section>
       </main>
       <footer>

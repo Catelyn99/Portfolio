@@ -1,14 +1,21 @@
+@import "../scss/mixins/media-query";
+
 .container {
-    display: flex;
-    .column {
-        width: 50%;
-        @media (max-width: 1200px) {
-            width: 100%;
-        }
+  display: flex;
+  @include mobile {
+    &:nth-child(3) {
+      flex-direction: column;
     }
+  }
+  .column {
+    width: 50%;
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+  }
 }
 
 .list {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }

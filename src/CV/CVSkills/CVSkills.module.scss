@@ -1,4 +1,6 @@
-@import "../../variables";
+@import "../../scss/variables/variables";
+@import "../../scss/mixins/box";
+
 .listtechnicalskills {
     text-align: center;
     display: flex;
@@ -6,8 +8,7 @@
     li {
         padding: 10px;
         color: $black-color;
-        width: 88px;
-        height: 88px;
+        @include box(88px, 80px);
     }
 }
 
@@ -38,17 +39,5 @@
 
     &sass:hover {
         color: rgb(226, 25, 209);
-    }
-}
-
-@media (max-width: 576px) {
-    .technicalskillscontainer {
-        float: left;
-    }
-    .listtechnicalskills li {
-        width: 33%;
-    }
-    .personalskillscontainer {
-        display: none;
     }
 }

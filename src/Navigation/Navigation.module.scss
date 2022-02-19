@@ -1,14 +1,14 @@
-@import "../variables";
+@import "../scss/mixins/position";
+@import "../scss/variables/variables";
 
 .navigation {
     width: 100%;
     background-color: $blue-color;
-    top: 0;
-    position: fixed;
+    @include position(fixed, 0);
     display: flex;
-    margin: 0;
     justify-content: space-around;
     flex-direction: row;
+    margin: 0;
     list-style-type: none;
     z-index: 1;
     background: linear-gradient(180deg, $blue-color 88%, transparent 100%);

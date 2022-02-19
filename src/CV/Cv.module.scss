@@ -1,113 +1,61 @@
-@import "../variables";
+@import "../scss/variables/variables";
+@import "../scss/mixins/spacing";
+@import "../scss/mixins/media-query";
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #title {
-    float: left;
+  float: left;
 }
 
 .main {
-    margin: 0 20%;
-    background-color: $white-color;
-    padding: 24px;
-    border-radius: 6px;
-    font-family: $lobster-font;
+  @include margin-x(10%);
+  background-color: $white-color;
+  padding: 24px;
+  border-radius: 6px;
+  font-family: $lobster-font;
+  @include tablet {
+    @include margin-x(0);
+  }
 }
 
 .email {
-    color: $black-color;
-    height: 100%;
-    background-color: $pink-color;
-    padding: 12px;
-    border-radius: 6px;
+  color: $black-color;
+  height: 100%;
+  background-color: $pink-color;
+  padding: 12px;
+  border-radius: 6px;
 }
 
 .generaldata {
-    margin: 115px 45px 0;
-    font-size: 20px;
-    li {
-        padding-top: 5px;
-        svg {
-            color: $violet-color;
-        }
-        &:hover svg {
-            color: $pink-color;
-        }
-        .mobilecaption {
-            display: none;
-        }
-        .caption {
-            font-style: italic;
-            cursor: pointer;
-        }
+  margin: 115px 45px 0;
+  font-size: 20px;
+  li {
+    padding-top: 5px;
+    svg {
+      color: $violet-color;
     }
-    a {
-        color: initial;
-        text-decoration: none;
-        font-style: italic;
+    &:hover svg {
+      color: $pink-color;
     }
+    .mobilecaption {
+      display: none;
+    }
+    .caption {
+      font-style: italic;
+      cursor: pointer;
+    }
+  }
+  a {
+    color: initial;
+    text-decoration: none;
+    font-style: italic;
+  }
 }
 .educationlist li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-
-// @media (max-width: 1200px) {
-//     .generaldata {
-//         margin: 10px;
-//     }
-// }
-
-// @media (max-width: 768px) {
-//     .generaldata {
-//         font-size: 15px;
-//     }
-//     .myphoto {
-//         height: 200px;
-//     }
-//     .main {
-//         margin: 15px 5%;
-//     }
-// }
-
-// @media (max-width: 576px) {
-//     h2 {
-//         width: 100%;
-//         text-align: center;
-//     }
-//     .email {
-//         float: none;
-//         display: block;
-//         overflow: hidden;
-//         padding: 10px;
-//         margin-bottom: 10px;
-//         text-align: center;
-//         border: 2px solid $pink-color;
-//     }
-//     #myphoto {
-//         display: block;
-//         margin: 0 auto;
-//         border: 2px solid $pink-color;
-//     }
-//     .caption {
-//         display: none;
-//     }
-//     .mobilecaption {
-//         display: initial;
-//         font-style: italic;
-//     }
-//     #generaldata {
-//         display: flex;
-//         justify-content: space-around;
-//     }
-//     #generaldata li {
-//         float: left;
-//         padding: 10px;
-//         border: 2px solid $blue-color;
-//     }
-//     #generaldata li:first-child {
-//         display: none;
-//     }
-// }

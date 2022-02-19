@@ -55,7 +55,7 @@ class Projects extends React.Component {
     ];
 
     render() {
-        const projectsHTML = this.projects.map(item => <Project className={styles.container} key={item.id} project={item} />)
+        const projectsHTML = this.projects.map(item => <Project key={item.id} project={item} />)
 
         return (
             <>

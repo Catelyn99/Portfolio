@@ -1,8 +1,8 @@
-@import '../variables';
+@import "../scss/variables/variables";
 
 .container {
     font-weight: 400;
-    color: #fff;
+    color: $white-color;
     margin: 0 300px 0 40px;
     font-family: "Nanum Pen Script", cursive;
     letter-spacing: 2px;
