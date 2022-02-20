@@ -1,4 +1,5 @@
 @import "./scss/variables/variables";
+@import "./scss/mixins/media-query";
 
 body {
   background-color: $black-color;
@@ -12,6 +13,9 @@ body {
     $violet-color 32%,
     $black-color 100%
   );
+  @include mobile {
+    padding-top: 0;
+  }
 }
 
 .cv {
