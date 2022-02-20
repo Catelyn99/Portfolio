@@ -13,6 +13,7 @@
   @include media-custom-max(430px) {
     &:nth-child(2) {
       flex-direction: column;
+      text-align: center;
     }
   }
   .column {
