@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4a266408.chunk.css",
+    "main.css": "/Portfolio/static/css/main.9332a2e5.chunk.css",
     "main.js": "/Portfolio/static/js/main.f4066a70.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.f4066a70.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.156684aa.js",
@@ -10,7 +10,7 @@
     "static/js/3.77ea301e.chunk.js": "/Portfolio/static/js/3.77ea301e.chunk.js",
     "static/js/3.77ea301e.chunk.js.map": "/Portfolio/static/js/3.77ea301e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.4a266408.chunk.css.map": "/Portfolio/static/css/main.4a266408.chunk.css.map",
+    "static/css/main.9332a2e5.chunk.css.map": "/Portfolio/static/css/main.9332a2e5.chunk.css.map",
     "static/js/2.e93632c1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e93632c1.chunk.js.LICENSE.txt",
     "static/media/blog.82693c9d.png": "/Portfolio/static/media/blog.82693c9d.png",
     "static/media/hospital-ward.653098b4.jpg": "/Portfolio/static/media/hospital-ward.653098b4.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.156684aa.js",
     "static/js/2.e93632c1.chunk.js",
-    "static/css/main.4a266408.chunk.css",
+    "static/css/main.9332a2e5.chunk.css",
     "static/js/main.f4066a70.chunk.js"
   ]
 }
