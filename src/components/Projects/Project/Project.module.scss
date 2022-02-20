@@ -1,9 +1,9 @@
-@import "../../scss/variables/variables";
-@import "../../scss/mixins/box";
-@import "../../scss/mixins/spacing";
-@import "../../scss/mixins/position";
-@import "../../scss/mixins/flex";
-@import "../../scss/mixins/media-query";
+@import "../../../scss/mixins/spacing";
+@import "../../../scss/mixins/position";
+@import "../../../scss/mixins/media-query";
+@import "../../../scss/mixins/box";
+@import "../../../scss/mixins/flex";
+@import "../../../scss/variables/variables";
 
 .revertContainer {
   flex-direction: row-reverse;

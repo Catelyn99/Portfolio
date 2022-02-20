@@ -1,10 +1,10 @@
 import styles from "./App.module.scss";
-import Header from "./Header/Header";
-import Cv from "./CV/Cv";
-import Projects from "./Projects/Projects";
-import AboutMe from "./AboutMe/AboutMe";
+import Header from "./components/Header/Header";
+import Cv from "./components/CV/Cv";
+import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/AboutMe/AboutMe";
 import { useRef } from "react";
-import Navigation from "./Navigation/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
   const refAboutMe = useRef(null);

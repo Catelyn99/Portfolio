@@ -1,8 +1,8 @@
-@import "../scss/variables/variables";
+@import "../../scss/variables/variables";
 @import url("https://fonts.googleapis.com/css2");
-@import "../scss/mixins/spacing";
-@import "../scss/mixins/flex";
-@import "../scss/mixins/media-query";
+@import "../../scss/mixins/spacing";
+@import "../../scss/mixins/flex";
+@import "../../scss/mixins/media-query";
 
 .introduction {
   font-family: $nanum-font;

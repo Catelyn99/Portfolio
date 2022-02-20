@@ -1,10 +1,10 @@
 import Project from "./Project/Project";
 import styles from "./Projects.module.scss";
 import React from "react";
-import blogImg from "./images/blog.png";
-import quizImg from "./images/quiz.png";
-import hospitalWard from "./images/hospital-ward.jpg";
-import vendorsCookie from "./images/vendors-cookie.jpg";
+import blogImg from "../../images/blog.png";
+import quizImg from "../../images/quiz.png";
+import hospitalWard from "../../images/hospital-ward.jpg";
+import vendorsCookie from "../../images/vendors-cookie.jpg";
 
 class Projects extends React.Component {
   projects = [

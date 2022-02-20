@@ -1,6 +1,6 @@
-@import "../scss/variables/variables";
-@import "../scss/mixins/spacing";
-@import "../scss/mixins/media-query";
+@import "../../scss/variables/variables";
+@import "../../scss/mixins/spacing";
+@import "../../scss/mixins/media-query";
 
 .cv {
   @include margin-x(10%);

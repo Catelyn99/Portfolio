@@ -1,7 +1,7 @@
 import styles from "./Cv.module.scss";
 import React from "react";
 import commonStyles from "./CvCommon.module.scss";
-import myphoto from "./myphoto.jpg";
+import myphoto from "../../images/myphoto.jpg";
 import CvSkills from "./CVSkills/CVSkills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faObjectUngroup } from "@fortawesome/free-solid-svg-icons";
