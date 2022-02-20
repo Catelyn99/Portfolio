@@ -1,16 +1,13 @@
 @import "../scss/variables/variables";
+@import "../scss/mixins/media-query";
 
 .container {
-    font-weight: 400;
-    color: $white-color;
-    margin: 0 300px 0 40px;
-    font-family: "Nanum Pen Script", cursive;
-    letter-spacing: 2px;
-}
+  font-weight: 400;
+  color: $white-color;
+  font-family: $nanum-font;
+  letter-spacing: 2px;
 
-@media (max-width: 768px) {
-    .container {
-        margin: 15px;
-        text-align: center;
-    }
+  @include mobile {
+    text-align: center;
+  }
 }

@@ -3,7 +3,15 @@
 .container {
   display: flex;
   @include mobile {
+    &:nth-child(2) {
+      align-items: flex-end;
+    }
     &:nth-child(3) {
+      flex-direction: column;
+    }
+  }
+  @include media-custom-max(430px) {
+    &:nth-child(2) {
       flex-direction: column;
     }
   }

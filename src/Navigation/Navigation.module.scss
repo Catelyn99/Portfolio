@@ -2,22 +2,22 @@
 @import "../scss/variables/variables";
 
 .navigation {
-    width: 100%;
-    background-color: $blue-color;
-    @include position(fixed, 0);
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 0;
-    list-style-type: none;
-    z-index: 1;
-    background: linear-gradient(180deg, $blue-color 88%, transparent 100%);
-    &__item {
-        cursor: grab;
-        font-weight: 600;
-        font-family: $lobster-font;
-        color: $black-color;
-        text-align: center;
-        padding: 20px;
-    }
+  width: 100%;
+  background-color: $blue-color;
+  @include position(fixed, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0;
+  list-style-type: none;
+  z-index: 1;
+  background: linear-gradient(180deg, $blue-color 88%, transparent 100%);
+  &Item {
+    cursor: grab;
+    font-weight: 600;
+    font-family: $lobster-font;
+    color: $black-color;
+    text-align: center;
+    padding: 20px;
+  }
 }

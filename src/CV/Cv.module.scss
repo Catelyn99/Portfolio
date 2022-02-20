@@ -2,17 +2,7 @@
 @import "../scss/mixins/spacing";
 @import "../scss/mixins/media-query";
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#title {
-  float: left;
-}
-
-.main {
+.cv {
   @include margin-x(10%);
   background-color: $white-color;
   padding: 24px;
@@ -21,41 +11,75 @@
   @include tablet {
     @include margin-x(0);
   }
-}
-
-.email {
-  color: $black-color;
-  height: 100%;
-  background-color: $pink-color;
-  padding: 12px;
-  border-radius: 6px;
-}
-
-.generaldata {
-  margin: 115px 45px 0;
-  font-size: 20px;
-  li {
-    padding-top: 5px;
-    svg {
-      color: $violet-color;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      padding-right: 15px;
+      @include mobile {
+        font-size: 20px;
+      }
     }
-    &:hover svg {
+    .contactMe {
       color: $pink-color;
+      text-transform: uppercase;
+      margin-right: 15px;
+      font-size: 12px;
+      font-weight: 800;
+
+      @include large-mobile {
+        display: none;
+      }
     }
-    .mobilecaption {
-      display: none;
+    .email {
+      color: $black-color;
+      height: 100%;
+      background-color: $pink-color;
+      padding: 12px;
+      border-radius: 6px;
+      &:hover {
+        color: $white-color;
+      }
     }
-    .caption {
+  }
+  .generaldata {
+    margin: 115px 45px 0;
+    font-size: 20px;
+    @include media-custom-max(430px) {
+      margin: 0;
+    }
+    li {
+      padding-top: 5px;
+      @include mobile {
+        &:last-child {
+          display: none;
+        }
+      }
+      svg {
+        color: $violet-color;
+        @include mobile {
+          font-size: 40px;
+        }
+      }
+      &:hover svg {
+        color: $pink-color;
+      }
+      .caption {
+        font-style: italic;
+        cursor: pointer;
+        @include mobile {
+          display: none;
+        }
+      }
+    }
+    a {
+      color: initial;
+      text-decoration: none;
       font-style: italic;
-      cursor: pointer;
     }
   }
-  a {
-    color: initial;
-    text-decoration: none;
-    font-style: italic;
+  .educationlist li {
+    margin-bottom: 15px;
   }
-}
-.educationlist li {
-  margin-bottom: 15px;
 }
