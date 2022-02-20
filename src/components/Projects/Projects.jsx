@@ -43,18 +43,6 @@ class Projects extends React.Component {
         alt: "The image of quiz",
       },
     },
-    {
-      id: 4,
-      name: "BLOG",
-      url: "https://catelyn99.github.io/Blog/blog",
-      technologiesUsed: "HTML, CSS, JavaScript, Bootstrap",
-      description:
-        "Blog przedstawiający kilka z moich podróży.  Do każdej podróży stworzony jest opis wycieczki, z którego można skorzystać i pooglądać zdjęcia.",
-      img: {
-        src: blogImg,
-        alt: "The image of blog",
-      },
-    },
   ];
 
   render() {

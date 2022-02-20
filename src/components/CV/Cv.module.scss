@@ -11,6 +11,9 @@
   @include tablet {
     @include margin-x(0);
   }
+  @include mobile {
+    font-family: $playfair-font;
+  }
   header {
     display: flex;
     justify-content: space-between;

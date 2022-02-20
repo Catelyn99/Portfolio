@@ -1,5 +1,6 @@
 @import "../../scss/mixins/position";
 @import "../../scss/variables/variables";
+@import "../../scss/mixins/media-query";
 
 .navigation {
   width: 100%;
@@ -19,5 +20,8 @@
     color: $black-color;
     text-align: center;
     padding: 20px;
+    @include mobile {
+      font-family: $playfair-font;
+    }
   }
 }
