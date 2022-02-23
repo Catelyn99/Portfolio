@@ -23,5 +23,10 @@
     @include mobile {
       font-family: $playfair-font;
     }
+    &:hover {
+      transform: scale(1.2);
+      color: $white-color;
+      transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
   }
 }
