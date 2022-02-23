@@ -15,10 +15,11 @@ This portfolio was created to represent my skills.
 * SCSS
 * CSS Modules
 
-## Table of Contents
+<!-- ## Table of Contents
 * My description
 ![Home](metadata/images/home.jpg?raw=true "Home")
 * My CV
 ![CV](metadata/images/cv.jpg?raw=true "CV")
 * My projects
 ![Projects](metadata/images/projects.jpg?raw=true "Projects")
+ -->
